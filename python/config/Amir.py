@@ -5,7 +5,6 @@ import ecs_logging
 import time
 from random import randint
 
-#logger = logging.getLogger(__name__)
 logger = logging.getLogger("app")
 logger.setLevel(logging.DEBUG)
 handler = logging.FileHandler('/var/log/Amir.json')

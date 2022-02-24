@@ -4,6 +4,7 @@ filebeat.inputs:
   enabled: true
   paths:
     - /var/log/nginx/*.log
+    - /var/log/*.json
 
 output.elasticsearch:
   hosts: ["http://elasticsearch:9200"]

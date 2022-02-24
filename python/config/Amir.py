@@ -8,7 +8,7 @@ from random import randint
 #logger = logging.getLogger(__name__)
 logger = logging.getLogger("app")
 logger.setLevel(logging.DEBUG)
-handler = logging.FileHandler('Amir.json')
+handler = logging.FileHandler('/var/log/Amir.json')
 handler.setFormatter(ecs_logging.StdlibFormatter())
 logger.addHandler(handler)
 
